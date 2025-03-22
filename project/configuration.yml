@@ -1,0 +1,10 @@
+pipelineSettings:
+  videoToPlay: tests/Recordings/normal/video-1.mp4
+  detectionModule: ML
+  algorithmicModule: Trigonometry
+pipelineExclusions:
+  includeTextDetection: False
+  includeFaceRecognition: False
+fileNames:
+  algorithmicServiceInputCSV: detected-cone-positions.csv
+  visualizationServiceInputCSV: filtered-detected-cone-positions.csv

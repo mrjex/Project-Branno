@@ -1,0 +1,13 @@
+path: /home/user/Documents/Machine-Learning-Projects/Final-test
+names:
+- cones
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: myproject-asfs2
+  url: https://universe.roboflow.com/group14yolo/myproject-asfs2/dataset/3
+  version: 3
+  workspace: group14yolo
+test: ../test/images
+train: MyProject-3/train/images
+val: MyProject-3/valid/images
