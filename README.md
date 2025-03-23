@@ -5,19 +5,16 @@ This project was developed in cohesion with the course [Cyber Physical Systems o
 In this project, we used the knowledge we gained from course X [Link to the architecture course directory here] to realize an appropriate architecture with respect to the given constraints and tasks of the Cyber Physical Systems of Systems course. In essence, this architectural solution not only completes the given task, but allows for a variety of different tasks to be fulfilled at large scales.
 
 
-
-![Branno-Video](Branno-Boys.mp4)
-
+[![Project Branno Demo](https://img.youtube.com/vi/HuOq2pDhM6Y/maxresdefault.jpg)](https://www.youtube.com/watch?v=HuOq2pDhM6Y)
 
 
 ## Architecture
 
 To develop an architecture to any project, we always need to account for the provided tasks and how it can be generalized and grouped into smaller categories. These categories can then be divided based on characteristics which constitute relations between these categories. Lastly, these relations need to be defined as interactions and events between the entities of the system.
 
-
 ![Container-Connection](readme-material/container-connection.PNG)
 
-![Entire-Architecture](readme-material/architecture/1. initial-architecture/1. entire-architecture.PNG)
+![Entire-Architecture](readme-material/architecture/1.%20initial-architecture//1.%20entire-architecture.PNG)
 
 
 In this case, our group had the task of calculated the 'groundSteering' angle at a given frame of a provided .rec or .mp4 file. We proceeded by dividing this problem into smaller problem-spaces:
@@ -42,7 +39,7 @@ Now, we denoted each of the above steps as services, as we understood that it wa
 ### Detection Services
 
 
-![Detection-Layer](readme-material/architecture/1. initial-architecture/2. Layer-1.PNG)
+![Detection-Layer](readme-material/architecture/1.%20initial-architecture/2.%20Layer-1.PNG)
 
 Everything in this service is concerned with detecting the positions of the cone on a given `.mp4` or `.rec` file and outputting it in CSVs to the next filter (Algorithmic Services).
 
@@ -64,7 +61,7 @@ In order to integrate this feature into this project, we used two tools:
 
 ### Algorithmic Services
 
-![Algorithmic-Layer](readme-material/architecture/1. initial-architecture/3. Layer-2.PNG)
+![Algorithmic-Layer](readme-material/architecture/1.%20initial-architecture/3.%20Layer-2.PNG)
 
 This service recieves the processed data from `Detection Services`, parses it and performs operations on it to calculate the `groundSteering` angle at each frame of the main video. These performed operations are pre-selected and tied to the responsibility of one of the modules below:
 
@@ -87,8 +84,7 @@ Our group did not have time to integrate this feature into this additional spare
 
 ### Visualization Services
 
-
-![Visualization-Layer](readme-material/architecture/1. initial-architecture/4. Layer-3.PNG)
+![Visualization-Layer](readme-material/architecture/1.%20initial-architecture/4.%20Layer-3.PNG)
 
 
 Connected database:
@@ -103,17 +99,17 @@ As we developed the project, we recognized the opportunity to incorporate a data
 
 Initial Document:
 
-![Initial-Doc](readme-material/group-documents/1. group-document.jpg)
+![Initial-Doc](readme-material/group-documents/1.%20group-document.jpg)
 
 
 Designed and final documents:
 
 Settings:
 
-![Final-Doc1](readme-material/group-documents/2. group-document.jpg)
+![Final-Doc1](readme-material/group-documents/2.%20group-document.jpg)
 
 
 
 Settings:
 
-![Final-Doc2](readme-material/group-documents/3. group-document.jpg)
+![Final-Doc2](readme-material/group-documents/3.%20group-document.jpg)
