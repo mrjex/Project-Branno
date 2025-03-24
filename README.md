@@ -1,4 +1,4 @@
-# Project Brännö 🚗
+# Project Brännö 🚢
 
 > Advanced Computer Vision System for Autonomous Vehicle Navigation
 
@@ -9,7 +9,7 @@
 
 ## 📑 Table of Contents
 
-- [Project Brännö 🚗](#project-brännö-)
+- [Project Brännö �](#project-brännö-)
   - [📑 Table of Contents](#-table-of-contents)
   - [🎯 Overview](#-overview)
   - [🎥 System Demo](#-system-demo)
@@ -133,17 +133,14 @@ Final Implementation:
 1. Clone the repository
 2. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   ./project/dev-endpoints/install-dependencies/install-dependencies.sh
    ```
 3. Configure MongoDB connection
-4. Run the detection service:
+4. Run the system (pipeline):
    ```bash
-   python detection_service.py --input video.mp4 --module ml
+   ./project/pipeline.sh
    ```
-5. Process results:
-   ```bash
-   python process_results.py
-   ```
+5. Process results: *Check outputs in `project/Visualization Services/Graphs`*
 
 ---
 
