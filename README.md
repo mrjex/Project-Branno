@@ -1,4 +1,4 @@
-# Project Brännö 🚢
+# Project Brännö 🏝️
 
 > Advanced Computer Vision System for Autonomous Vehicle Navigation
 
@@ -9,7 +9,7 @@
 
 ## 📑 Table of Contents
 
-- [Project Brännö �](#project-brännö-)
+- [Project Brännö 🏝️](#project-brännö-️)
   - [📑 Table of Contents](#-table-of-contents)
   - [🎯 Overview](#-overview)
   - [🎥 System Demo](#-system-demo)
@@ -25,7 +25,7 @@
     - [Computer Vision Pipeline](#computer-vision-pipeline)
     - [Machine Learning Integration](#machine-learning-integration)
     - [Data Processing](#data-processing)
-  - [📚 Documentation](#-documentation)
+  - [⚙️ System Dataflow Configurations](#️-system-dataflow-configurations)
   - [🚀 Getting Started](#-getting-started)
 
 ## 🎯 Overview
@@ -113,20 +113,17 @@ Features:
 - Interactive debugging capabilities
 - Structured output in `/Graphs` directory
 
-## 📚 Documentation
+## ⚙️ System Dataflow Configurations
 
-Our development process included comprehensive documentation:
+As a developer, you can specify which modules in each of the three aforementioned services will be executed, either through defining them as arguments for the Bash scripts, or by prompting the system with *.png* or *.jpg* files. As for the latter option, **tesseract-ocr** is used for text detection and extracts key words which are then processed and checked against the system's currently existing modules. Below are two examples of how text documents can be provided to the system to configure the dataflow:
 
-Initial Design:
-![Initial-Doc](readme-material/group-documents/1.%20group-document.jpg)
-*Initial system design documentation*
-
-Final Implementation:
 ![Final-Doc1](readme-material/group-documents/2.%20group-document.jpg)
-*System configuration and settings*
+
+*Select **HSV** and **Trigonometry** modules*
 
 ![Final-Doc2](readme-material/group-documents/3.%20group-document.jpg)
-*Detailed implementation specifications*
+
+*Select **HSV** and **Linear Regression** modules*
 
 ## 🚀 Getting Started
 
@@ -141,6 +138,7 @@ Final Implementation:
    ./project/pipeline.sh
    ```
 5. Process results: *Check outputs in `project/Visualization Services/Graphs`*
+
 
 ---
 
