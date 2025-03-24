@@ -142,4 +142,4 @@ As a developer, you can specify which modules in each of the three aforementione
 
 ---
 
-*Project Brännö is an advanced computer vision system developed by a team of four students at [University Name], demonstrating the practical application of cyber-physical systems in autonomous navigation.*
+*Project Brännö is an advanced computer vision system developed by a team of four engineers, demonstrating the practical application of cyber-physical systems in autonomous navigation.*
