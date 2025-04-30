@@ -1,6 +1,6 @@
 # Project Brännö 🏝️
 
-> Advanced Computer Vision System for Autonomous Vehicle Navigation
+> Advanced Computer Vision System for Autonomous Vehicle Navigation Developed by [Joel Mattsson](https://github.com/mrjex), [Mohamad Khalil](https://github.com/Chef03), [Joshua Falck](https://github.com/FalckJoshua) and Joey Karlsson
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-green)](https://opencv.org/)
